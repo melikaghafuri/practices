@@ -1,0 +1,118 @@
+body {
+    background-color: black;
+}
+
+.gray {
+    background-color: #888;
+}
+
+.small-box {
+    width: 80px;
+    height: 20px;
+    background-color: #888;
+    margin: 5px 10px;
+}
+
+.wide-box {
+    width: 400px;
+    height:80px;
+}
+
+.thick-box {
+    width: 300px;
+    height: 200px;
+}
+
+.container {
+    width: 65%;
+    margin: 0px auto;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+} 
+
+header div {
+    width: 540px;
+    height: 200px;
+}
+
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.QA-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    width: 400px;
+    height: 40px;
+    background-color: #888;
+    margin: 15px 0px;
+}
+
+.box2 {
+    width: 450px;
+    height: 300px;
+    background-color: #888;
+    margin: 15px 0px;
+}
+
+.box3 {
+    width: 380px;
+    height: 80px;
+    background-color: #888;
+    margin: 15px 0px;
+}
+
+.box4 {
+    width: 170px;
+    height: 20px;
+    margin: 5px 30px;
+    background-color: #888;
+}
+
+.box5 {
+    width: 120px;
+    height: 200px;
+    background-color: #888;
+    margin: 5px 30px;
+}
+
+footer {
+    width: 700px;
+    margin: 0px auto;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
